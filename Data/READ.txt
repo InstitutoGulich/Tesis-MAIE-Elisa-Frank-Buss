@@ -1,0 +1,5 @@
+The clipping of the SAOCOM image is in the folder "subset_0_of_S1A_OPER_SAR_EOSSP__CORE_L1A_OLVF_20200703T145917_TC.data". The SAOCOM data format is standard ENVI. For each polarisation there are four files, one IMG per amplitude and one per phase, corresponding to the SAOCOM data itself, and one HDR per amplitude and one per phase, containing the image metadata (16 files in total). Geographic reference system WGS84.
+
+The image of the present clipping was preprocessed with SNAP software. A Range-Doppler Terrain Correction was performed for both the real and the imaginary parts. A DIM file of the clipping is provided to visualise these data in SNAP.
+
+It is also provided the clipping in TIFF format (folder TIFF) for the backscattering coefficient of the bands HH, HV and VV, and the GRVI resulting from processing in R (GRVI_5x5.tif).
