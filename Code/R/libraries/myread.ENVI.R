@@ -22,7 +22,7 @@ readComplexFloat <- function(f, size, endian){
 	return(X)
 }
 
-myread.ENVI <- function (filename, headerfile = paste(filename, ".hdr", sep = ""))
+myread <- function (filename, headerfile = paste(filename, ".hdr", sep = ""))
 {
     nCol <- nRow <- nBand <- data.type <- header.offset <- byte.order <- (-1)
     interleave = "bsq"
