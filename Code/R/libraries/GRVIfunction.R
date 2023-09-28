@@ -3,7 +3,7 @@ This function calculates the Generalised Radar Vegetation Index (GRVI) and appli
 (x*y) of the radar bands.
 
 Input data:
-- the polarizations HH, HV, VV readed with the myread.ENVI function
+- the polarizations HH, HV, VV readed with the myread function
 - the values for x and y, in this case 2.
 
 Author: Elisa Frank Buss
