@@ -4,7 +4,7 @@ the model of Antropov et al (2011), for each pixel of the input matrix,
 applying multilooking, with x,y = 2.
 
 Input data:
-_the polarizations HH, HV, VV readed with the myread.ENVI function
+_the polarizations HH, HV, VV readed with the myread function
 _the values for x and y, in this case 2.
 
 Author: Elisa Frank Buss
