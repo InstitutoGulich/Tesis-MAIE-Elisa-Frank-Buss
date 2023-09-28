@@ -1,5 +1,5 @@
 "
-This function allows to visualise in R the result from the function myread.ENVI.
+This function allows to visualise in R the result from the function myread.
 
 Author: Alejandro Frery and colaborators
 Encoding: UTF-8
