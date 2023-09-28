@@ -19,7 +19,7 @@ wd <- setwd("D:/Documents/GitHub/Tesis-MAIE-Elisa-Frank-Buss/")
 
 # Required functions
 source("Code/R/libraries/imagematrix.R")
-source("Code/R/libraries/myread.ENVI.R")
+source("Code/R/libraries/myread.R")
 source("Code/R/libraries/PauliKennaughMultilook.R")
 source("Code/R/libraries/gammaFunction.R")
 source("Code/R/libraries/vectorVFunction.R")
@@ -30,12 +30,12 @@ source("Code/R/libraries/GRVIFunction.R")
 path <- "Data/SAOCOM/subset_0_of_S1A_OPER_SAR_EOSSP__CORE_L1A_OLVF_20200703T145917_TC.data"
 
 # Read the real and imaginary bands
-R_HH <- myread.ENVI(paste(path,"/i_HH.img", sep=""), paste(path,"/i_HH.hdr", sep=""))
-I_HH <- myread.ENVI(paste(path,"/q_HH.img", sep=""), paste(path,"/q_HH.hdr", sep=""))
-R_HV <- myread.ENVI(paste(path,"/i_HV.img", sep=""), paste(path,"/i_HV.hdr", sep=""))
-I_HV <- myread.ENVI(paste(path,"/q_HV.img", sep=""), paste(path,"/q_HV.hdr", sep=""))
-R_VV <- myread.ENVI(paste(path,"/i_VV.img", sep=""), paste(path,"/i_VV.hdr", sep=""))
-I_VV <- myread.ENVI(paste(path,"/q_VV.img", sep=""), paste(path,"/q_VV.hdr", sep=""))
+R_HH <- myread(paste(path,"/i_HH.img", sep=""), paste(path,"/i_HH.hdr", sep=""))
+I_HH <- myread(paste(path,"/q_HH.img", sep=""), paste(path,"/q_HH.hdr", sep=""))
+R_HV <- myread(paste(path,"/i_HV.img", sep=""), paste(path,"/i_HV.hdr", sep=""))
+I_HV <- myread(paste(path,"/q_HV.img", sep=""), paste(path,"/q_HV.hdr", sep=""))
+R_VV <- myread(paste(path,"/i_VV.img", sep=""), paste(path,"/i_VV.hdr", sep=""))
+I_VV <- myread(paste(path,"/q_VV.img", sep=""), paste(path,"/q_VV.hdr", sep=""))
 
 # Obtain matrix dimensions
 dimensions <- dim(R_HH)
