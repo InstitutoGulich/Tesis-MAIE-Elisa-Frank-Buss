@@ -7,7 +7,7 @@ NoData are not taken into account in the analysis. When a NoData is present in
 at least one of the pixels, the result is NoData.
 
 Input data:
-_the polarizations HH, HV, VV readed with the myread.ENVI function
+_the polarizations HH, HV, VV readed with the myread function
 _the values for x and y, in this case 2.
 
 Author: Alejandro Frery and Elisa Frank Buss
