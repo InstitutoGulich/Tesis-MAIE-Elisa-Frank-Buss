@@ -1,6 +1,4 @@
 # Tesis-MAIE-Elisa-Frank-Buss
-# This repository is currently under construction and maintenance, awaiting corrections to the master's thesis, so that the final version of the manuscript and figures can be made available.
-
 
 This repository includes the Master Thesis in Spatial Information Applications of Eng. Elisa Frank Buss.
 
